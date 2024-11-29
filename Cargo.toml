@@ -1,0 +1,3 @@
+[workspace]
+members = [ "pipeline","producer-consumer", "worker-pool"]
+resolver = "2"
