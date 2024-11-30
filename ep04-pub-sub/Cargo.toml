@@ -1,5 +1,5 @@
 [package]
-name = "pipeline"
+name = "ep04-pub-sub"
 version = "0.1.0"
 edition = "2021"
 

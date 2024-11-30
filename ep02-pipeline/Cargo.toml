@@ -1,5 +1,5 @@
 [package]
-name = "producer-consumer"
+name = "ep02-pipeline"
 version = "0.1.0"
 edition = "2021"
 
