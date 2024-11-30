@@ -1,8 +1,7 @@
 use std::sync::mpsc::{channel, Receiver, Sender};
 use std::sync::{Arc, Mutex};
 use std::thread;
-use std::thread::{sleep, JoinHandle};
-use std::time::Duration;
+use std::thread::JoinHandle;
 
 struct Actor {
     sender: Sender<Option<String>>,
@@ -35,7 +34,8 @@ impl Actor {
                     if !me.quiet {
                         println!("{} received: {}", me.name, msg);
                     }
-                } else { // received None
+                } else {
+                    // received None
                     break;
                 }
             }
