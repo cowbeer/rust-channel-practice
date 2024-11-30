@@ -1,3 +1,3 @@
 [workspace]
-members = [ "ep01-producer-consumer", "ep02-pipeline", "ep03-worker-pool", "ep04-pub-sub",]
+members = [ "ep01-producer-consumer", "ep02-pipeline", "ep03-worker-pool", "ep04-pub-sub", "ep05-fan-in-fan-out",]
 resolver = "2"
